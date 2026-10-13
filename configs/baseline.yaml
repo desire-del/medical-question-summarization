@@ -1,0 +1,10 @@
+
+model_name: google/flan-t5-base
+data_path: data/processed/meqsum
+
+max_source_length: 384
+max_target_length: 64
+
+eval_batch_size: 8
+num_beams: 4
+max_new_tokens: 64

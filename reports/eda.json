@@ -1,0 +1,23 @@
+{
+  "model": "google/flan-t5-base",
+  "prompt": "Summarize this medical question as a concise, self-contained question: ",
+  "num_examples": 800,
+  "source": {
+    "min": 30,
+    "mean": 112.23,
+    "median": 94.0,
+    "p90": 197.0,
+    "p95": 246.0999999999999,
+    "p99": 407.01,
+    "max": 562
+  },
+  "target": {
+    "min": 6,
+    "mean": 16.65,
+    "median": 15.0,
+    "p90": 24.0,
+    "p95": 29.0,
+    "p99": 37.00999999999999,
+    "max": 59
+  }
+}

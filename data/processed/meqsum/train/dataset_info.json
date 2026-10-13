@@ -1,0 +1,40 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "meqsum",
+  "dataset_size": 430678,
+  "description": "",
+  "download_size": 263451,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "source": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "target": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 694129,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 430678,
+      "num_examples": 1000,
+      "dataset_name": "meqsum"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
