@@ -1,0 +1,25 @@
+
+model_name: google/flan-t5-base
+data_path: data/processed/meqsum
+output_dir: /content/meqsum-lora/checkpoints
+
+max_source_length: 384
+max_target_length: 64
+
+generation:
+  num_beams: 4
+  max_new_tokens: 64
+
+lora:
+  r: 8
+  alpha: 16
+  dropout: 0.05
+  target_modules: [q, v]
+
+training:
+  epochs: 5
+  learning_rate: 0.0002
+  batch_size: 4
+  eval_batch_size: 8
+  gradient_accumulation_steps: 4
+  seed: 42
