@@ -1,5 +1,5 @@
 
-model_name: google/flan-t5-base
+model_name: google/flan-t5-large
 data_path: data/processed/meqsum
 
 max_source_length: 384
