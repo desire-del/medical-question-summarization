@@ -10,7 +10,8 @@ from transformers import AutoTokenizer
 from meqsum.preprocess import SOURCE_PREFIX
 
 
-MODEL_ID = "google/flan-t5-base"
+
+MODEL_ID = "google/flan-t5-large"
 DATA_PATH = "data/processed/meqsum"
 REPORT_DIR = Path("reports")
 
